@@ -10,11 +10,38 @@ a {
 
 ul {
   list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 /* -------------------------------------- */
 /*------------ header---------------- */
 
 .header {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header.nav {
@@ -98,6 +125,7 @@ ul {
 
 .solution {
   background-color: #2e2f42;
+  background-position: 120px;
 }
 
 .solution-title {
@@ -107,6 +135,10 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  max-width: 496px;
+  margin: 0 auto;
 }
 
 .solution-button {
@@ -117,6 +149,12 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  margin-bottom: 188px;
+  margin-top: 48px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 48px;
+  margin-bottom: 188px;
 }
 
 .solution-button:focus {
@@ -136,6 +174,8 @@ ul {
 /*---------- features ------------*/
 
 .features {
+  padding-right: 156px;
+  padding-left: 156px;
 }
 
 .features-title {
@@ -153,6 +193,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-bottom: 8px;
 }
 
 .features-list-item {
@@ -176,6 +217,7 @@ ul {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
+  padding-bottom: 72px;
 }
 
 .team-item {
@@ -194,6 +236,8 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 
 .team-title {
@@ -216,6 +260,7 @@ ul {
   text-transform: capitalize;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-bottom: 72px;
 }
 .product-list {
 }
@@ -231,6 +276,8 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 
 .product-description {
@@ -245,15 +292,23 @@ ul {
 .footer {
   background-color: #2e2f42;
 }
+
 .footer-logo {
   line-height: 1.17;
 }
+
 .footer-logo-italic {
   color: #f4f4fd;
 }
 .footer-text {
+}
+
+.footer-text-container {
   font-size: 16px;
+  max-width: 264px;
+  color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  padding-top: 16px;
+  padding-bottom: 100px;
 }
