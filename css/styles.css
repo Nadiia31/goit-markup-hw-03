@@ -68,7 +68,7 @@ img {
 .all-in-one {
   display: flex;
 }
-.header.nav {
+.header-navig {
   display: flex;
   flex-grow: 1;
   margin-right: 40px;
