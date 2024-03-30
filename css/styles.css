@@ -63,9 +63,11 @@ img {
 }
 
 .header-container {
-  display: flex;
 }
 
+.all-in-one {
+  display: flex;
+}
 .header.nav {
   display: flex;
   flex-grow: 1;
@@ -161,8 +163,6 @@ img {
 .solution {
   background-color: #2e2f42;
   background-position: 120px;
-}
-.second {
   padding: 188px 0 188px;
 }
 
@@ -212,7 +212,7 @@ img {
 /*---------- features ------------*/
 
 .features {
-  padding: 188px 0 188px;
+  padding: 120px 0 120px;
 }
 
 .features-title {
@@ -229,14 +229,12 @@ img {
 }
 
 .features-list {
-  margin-right: 156px;
-  padding-left: 156px;
   display: flex;
   gap: 24px;
 }
 
 .features-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .features-list-name {
