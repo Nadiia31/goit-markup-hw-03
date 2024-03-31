@@ -374,6 +374,8 @@ img {
 .footer-logo {
   margin-left: 156px;
   line-height: 1.17;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-italic {
@@ -386,7 +388,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-left: 156px;
-  margin-top: 16px;
 }
 .logo {
 }
